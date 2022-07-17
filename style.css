@@ -1,0 +1,218 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background-color:#C4A484;
+    color:black;
+    
+}
+
+.my_nav_bar {
+
+    position:sticky;
+    top:0;
+    z-index:99999;
+    background-color: #241b13;
+
+}
+
+#nav_text {
+
+    color:#ffe7bb9c;
+
+}
+
+#intro_heading {
+
+    font-weight:600;
+    font-size:20px;
+
+}
+
+hr{
+
+    border-width: 3px;
+    border-color:black;
+    width:90%;
+
+}
+
+#title-text {
+
+    font-weight: 600;
+    font-size:30px;
+
+}
+
+#img1{
+
+    width:100%;
+    background-position: center;
+
+}
+
+#intro_text{
+
+    width:90%;
+
+}
+
+#booklist-content{
+
+    text-align:left;
+    margin-left:150px;
+    font-size:20px;
+    color:black;
+
+}
+
+#list_content{
+
+    color:#000000;
+    font-style: italic;
+
+}
+
+.review_text{
+
+    text-align:justify;
+
+}
+
+.img-responsive{
+
+    width:100px;
+
+}
+
+#tcl{
+
+    font-size: 20px;
+    background-color:rgb(93, 162, 133);
+    border-radius:15px;
+    color:rgb(141 39 46);
+
+}
+
+#tcl_div{
+
+    width:80%;
+    background-color:rgba(165, 42, 42, 0.404);
+    margin-top:15px;
+    padding-top:10px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 15px;
+    display:none;
+
+}
+
+#agggtm{
+
+    font-size: 20px;
+    background-color:rgb(131, 131, 131);
+    border-radius:15px;
+    color:rgb(85, 11, 13);
+
+}
+
+#agggtm_div{
+
+    width:80%;
+    background-color:#510e0f65;
+    margin-top:15px;
+    padding-top:10px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 15px;
+    display:none;
+
+}
+
+#tgib{
+
+    font-size: 20px;
+    background-color:#000000;
+    border-radius:15px;
+    color:#fe0000;
+
+}
+
+#tgib_div{
+
+    width:80%;
+    background-color:#edc6a7ab;
+    margin-top:15px;
+    padding-top:10px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 15px;
+    display:none;
+
+}
+
+#coss{
+
+    font-size: 20px;
+    background-color:#9c3a75;
+    border-radius:15px;
+    color:#68e8b6;
+
+}
+
+#coss_div{
+
+    width:80%;
+    background-color:#582f59b2;
+    margin-top:15px;
+    padding-top:10px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 15px;
+    display:none;
+
+}
+
+#tsz{
+
+    font-size: 20px;
+    background-color:#041217;
+    border-radius:15px;
+    color:#d33c51;
+
+}
+
+#tsz_div{
+
+    width:80%;
+    background-color:#488dafbb;
+    margin-top:15px;
+    padding-top:10px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 15px;
+    display:none;
+
+}
+
+#gmail_img{
+
+    width:30px;
+    margin-right:10px;
+
+}
+
+#contact_email{
+
+    color:black;
+
+}

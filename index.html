@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reet's Reads</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+</head>
+
+<body>
+
+    <center>
+
+        <nav class="navbar-inverse my_nav_bar">
+        
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+               
+              <a class="navbar-brand" href="#" id = "nav_text"> Reet's Reads </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a id = "nav_text" href="#intro">INTRODUCTION</a></li>
+                <li><a id = "nav_text" href="#list">BOOKLIST</a></li>
+                <li><a id = "nav_text" href="#reviews">REVIEWS</a></li>
+                <li><a id = "nav_text" href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+        
+        </nav>
+
+            <img id = "img1" src = "book-background.png">
+
+        <section id = "intro"> 
+
+            <br>
+
+            <header id = "intro_heading"> INTRODUCTION </header>
+
+            <br>
+
+            <h4 id = "intro_text"> Hi! I'm Reet, and welcome to my book blog. Here I post reviews to books I've read, including how much I enjoyed it and similar books to read. My goal is to connect readers to the books they love, while also giving notice to good books that fall under the radar. You can also give me book recommendations if there's a book you'd like to see me review. I hope you enjoy! </h4>
+
+            <hr>
+
+        </section>
+
+        <section id = "list">
+
+          <header id = "intro_heading"> BOOKLIST </header>
+
+          <h4> Here I'll post a list of the books I've reviewed! If there's a title you want to see up here, contact me down below. </h4>
+
+          <ul style = "list-style-type: disc;" id = "booklist-content">
+            <li><a id = "list_content" href="#tcl">The Chandler Legacies</a></li>
+            <li><a id = "list_content" href="#agggtm">A Good Girl's Guide to Murder</a></li>
+            <li><a id = "list_content" href="#tgib">The Girls I've Been</a></li>
+            <li><a id = "list_content" href="#coss">Carry On (Simon Snow #1)</a></li>
+            <li><a id = "list_content" href="#tsz">The Spill Zone</a></li>
+          </ul>
+
+          <hr>
+
+        </section>
+
+        <section id = "reviews">
+
+          <header id = "intro_heading"> REVIEWS </header>
+
+          <h4 id = "intro_text"> The reviews have three categories: my overall review, my rating out of ten, and similar books. </h4>
+
+          <button onclick = "showTcl()" id = "tcl"> The Chandler Legacies - Abdi Nazemian </button>
+
+          <div class = "book_review" id = "tcl_div">
+
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623772713l/58132543.jpg" class = "img-responsive">
+            
+            <div class = "review_text">
+
+              <h4> The Chandler Legacies is centered around five students who meet in the Circle, an elite writing group in their boarding school. The plot is told from each of the students' perspectives as the story progresses and they realize how corrupt their school system is, and decide to fight back against it. The Chandler Legacies is a very diverse book, with people of color and LGBT+ inclusion. However, there were often chapters that felt unnecessary or stretched out. I would rate this 7/10, because the story was interesting and the plot was well-thought out, but it was slow at times and I felt it was hard to stay interested. I would recommend this book to anyone interested in realistic fiction as well as fighting the system and making a stand for what's right. </h4>
+
+            </div>
+
+            <h3> Similar Books: </h3>
+
+            <h4 class = "review_text"> 
+              
+              <ul style = "list-style-type: disc;">
+                <li> Like a Love Story - Abdi Nazemian </li>
+                <li> The Authentics - Abdi Nazemian </li>
+                <li> This is Why They Hate Us - Aaron H. Aceves </li>
+              </ul>
+            
+            </h4>
+
+          </div>
+
+          <br>
+          <br>
+
+          <button onclick = "showAgggtm()" id = "agggtm"> A Good Girl's Guide to Murder - Holly Jackson </button>
+
+          <div class = "book_review" id = "agggtm_div">
+
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51QBnNHGmqL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg" class = "img-responsive">
+            
+            <div class = "review_text">
+
+              <h4> A Good Girl's Guide to Murder is the perfect mix of mystery and crime. In this novel, we follow Pip, the main character, as she attempts to reopen a cold case and prove that Sal, someone she used to know, was innocent all along. With the help of Ravi, Sal's younger brother, Pip starts her investigation- but someone doesn't want her digging around in old-town Fairview's secrets. I loved this book, and I think it deserves 8.5/10. The plot had a good amount of suspense without being too slow, but the story progressed in a way that wasn't too fast either. I would recommend this book, which is actually the first of a trilogy, to anyone who enjoys true crime and mystery novels. </h4>
+
+            </div>
+
+            <h3> Similar Books: </h3>
+
+            <h4 class = "review_text"> 
+              
+              <ul style = "list-style-type: disc;">
+                <li> Good Girl, Bad Blood - Holly Jackson </li>
+                <li> As Good As Dead - Holly Jackson </li>
+                <li> The New Girl - Jesse Q. Sutanto </li>
+              </ul>
+            
+            </h4>
+
+          </div>
+
+          <br>
+          <br>
+
+          <button onclick = "showTgib()" id = "tgib"> The Girls I've Been - Tess Sharpe </button>
+
+          <div class = "book_review" id = "tgib_div">
+
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41AKyZSMI2L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg" class = "img-responsive">
+            
+            <div class = "review_text">
+
+              <h4> This novel describes the a day in life of Nora O'Malley- but on this day, she's been taken hostage as part of a bank robbery. In order to get herself, her girlfriend, and her best friend out alive, she'll need to use every one of her secret skills - back from when she was a con artist - accompanied by flashbacks about Nora's backstory. Along with telling an empowering tale of a strong female survivor, it's full of thrills and excitement, and I would give it a 9/10. This book is soon to be a Netflix film starring Millie Bobbie Brown! I would recommend this to anyone who loves thrillers and suspenseful books. </h4>
+
+            </div>
+
+            <h3> Similar Books: </h3>
+
+            <h4 class = "review_text"> 
+              
+              <ul style = "list-style-type: disc;">
+                <li> Captain Marvel: Liberation Run - Tess Sharpe </li>
+                <li> Last Night at the Telegraph Club - Malinda Lo </li>
+                <li> Toil & Trouble: 15 Tales of Women & Witchcraft - Jessica Spotswood </li>
+              </ul>
+            
+            </h4>
+
+          </div>
+
+          <br>
+          <br>
+
+          <button onclick = "showCoss()" id = "coss"> Carry On - Rainbow Rowell </button>
+
+          <div class = "book_review" id = "coss_div">
+
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481729252l/32768522.jpg" class = "img-responsive">
+            
+            <div class = "review_text">
+
+              <h4> Carry On describes the life of Simon Snow, his best friend Penelope, his nemesis Baz, and his girlfriend Agatha. Simon is the Chosen One, who was prophesied to save the wizarding world from the greatest danger they have ever faced. However, Simon doens't feel much like a wizard. He prefers his sword to his wand, and always messes up spells. Plus, there's quite a few things distracting him from his "prophecy", like the whereabouts of Baz- who never showed up for their last year at Watford School of Magicks, also their last year as enemies and... roommates. Carry On is amazing. There's not much else to say. This book will take you on a rollercoaster of emotions and thoughts, and it's beautifully written so you feel as though you are right there in Watford along with Simon and Baz. I would give it a 9.5/10, easily. It is told from varying perspectives, mainly Simon, Penelope, and Baz, and it's the first in a trilogy. </h4>
+
+            </div>
+
+            <h3> Similar Books: </h3>
+
+            <h4 class = "review_text"> 
+              
+              <ul style = "list-style-type: disc;">
+                <li> Wayward Son - Rainbow Rowell </li>
+                <li> Any Way the Wind Blows - Rainbow Rowell </li>
+                <li> So This is Ever After - F.T. Lukens </li>
+              </ul>
+            
+            </h4>
+
+          </div>
+
+          <br>
+          <br>
+
+          <button onclick = "showTsz()" id = "tsz"> The Spill Zone - Scott Westerfeld </button>
+
+          <div class = "book_review" id = "tsz_div">
+
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51GnIFghTTL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg" class = "img-responsive">
+            
+            <div class = "review_text">
+
+              <h4> The Spill Zone is a graphic novel, with art by Alex Puvilland. After an incident three years ago, the city of Poughkeepsie has been changed forever. Known now as the Spill Zone, animals are mutated and structures seem to have a life of their own. The story revolves around Addison, who lives with her sister in a house near the Spill, and sneaks in to take photos for eccentric collectors. To keep herself and her sister safe, she has rules- but then she's given an offer, one that she can't possibly resist. However, taking it up will require her to go farther into the Spill than she's ever been and break every single one of her rules on the way. Perfect for enjoyers of sci-fi and dystopian novels. I would rate it 8.5/10, for a suspenseful plot and beautiful artwork. At first the story did seem a bit confusing, but everything explains itself nicely as you read on. </h4>
+
+            </div>
+
+            <h3> Similar Books: </h3>
+
+            <h4 class = "review_text"> 
+              
+              <ul style = "list-style-type: disc;">
+                <li> Spill Zone Book 2: The Broken Vow - Scott Westerfeld </li>
+                <li> Solomon's Thieves - Jordan Mechner </li>
+                <li> Prince of Persia: The Graphic Novel - Jordan Mechner </li>
+              </ul>
+            
+            </h4>
+
+          </div>
+
+          <hr>
+
+        </section>
+
+        <section id = "contact">
+
+          <header id = "intro_heading"> CONTACT </header>
+
+          <h4 id = "intro_text"> Here's where you'll find my contact information. </h4>
+
+          <a href="mailto:snappertwig@gmail.com?Subject=Reet's Reads">
+
+            <h4 id = "contact_email"> <img id = "gmail_img" src = "https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png"> snappertwig@gmail.com </h4>
+
+          </a>
+
+          <h4> Twitter: @ReetVirk12 </h4>
+
+        </section>
+
+    </center>
+
+</body>
